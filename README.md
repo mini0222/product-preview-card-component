@@ -11,7 +11,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+
 
 
 
@@ -46,31 +46,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I discovered the functionality of flex-basis, which determines the initial size of a flexible item. 
+In this project, since the element that has class name 'container' is displayed as flex,
+the items inside can have initial length which is flex basis.
 
-To see how you can add code snippets, see below:
+By setting both elements' flex-basis length to 50%, I was able to achieve an evenly balanced ratio between them.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+
+.gallery {
+    flex-basis: 50%;
+   
+
+}
+
+
+.details {
+    flex-basis: 50%;
+    padding: 30px;
+    
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
 
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
